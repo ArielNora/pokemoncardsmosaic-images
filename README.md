@@ -10,7 +10,7 @@ publiées en *release* : une par extension.
 
 ## Contenu
 
-441 illustrations en 22 archives, 56,4 Mo au total. Format 734x1024, WebP
+454 illustrations en 23 archives, 57,9 Mo au total. Format 734x1024, WebP
 qualité 80.
 
 Ce sont les illustrations seules, telles que le jeu les affiche sous le cadre :
@@ -27,14 +27,14 @@ cd pokemoncardsmosaic
 uv run python scripts/fetch_cards.py
 ```
 
-Le manifeste `cards.json` du dépôt principal décrit les 441 illustrations, avec
+Le manifeste `cards.json` du dépôt principal décrit les 454 illustrations, avec
 leur chemin, leur taille et leur empreinte SHA-256. Le script vérifie chaque
 archive, puis chaque image, avant de l'écrire.
 
 Pour prendre les archives sans passer par l'application :
 
 ```bash
-gh release download cards-v3 --repo ArielNora/pokemoncardsmosaic-images
+gh release download cards-v4 --repo ArielNora/pokemoncardsmosaic-images
 ```
 
 ## Droits
